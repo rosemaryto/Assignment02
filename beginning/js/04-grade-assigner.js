@@ -7,7 +7,7 @@ if (score >= 60 && score <= 69) {
     console.log("You received a B");
 } else if (score >= 90 && score <= 100) {
     console.log("You received a A");
-} else if (score <= 60) {
+} else if (score < 60) {
     console.log("You received a F");
 } else {
     alert("Enter a number betwee 1 and 100.");
